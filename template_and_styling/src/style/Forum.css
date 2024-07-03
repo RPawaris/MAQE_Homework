@@ -1,0 +1,61 @@
+.forum-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.forum-header{
+    text-align: left;
+    width: 47.5%; 
+}
+
+.forum-header h1, .forum-header p {
+    margin: 0; 
+}
+
+.post-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    height: 100%;
+}
+
+.post-card.even {
+    background-color: #ccecff;
+}
+
+.post-head img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.post-body img {
+    width: 200px;
+    height: 200px;
+}
+
+.post-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-head h3 {
+    color: orange;
+}
+
+.post-head p {
+    color: grey;
+}
+
+.post-body {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    gap: 20px
+}
